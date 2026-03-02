@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite">
+<test name ="Test1">
+<groups>
+<run>
+<include name="Sanity"/>
+
+</run>
+
+</groups>
+
+<classes>
+
+<class name ="com.testNG1.Anotaions1"/>
+<class name ="com.testNG1.Class2"/>
+<class name ="com.testNG1.Class3"/>
+
+
+</classes>
+</test>
+</suite>

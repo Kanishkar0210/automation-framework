@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  
+  <include name="sanity"/>
+  <exclude name ="integration"/>
+  
+  
+  </run>
+  </groups>
+  
+    <classes>
+      <class name="com.group.Class2"/>
+      <class name="com.group.Class3"/>
+      <class name="com.group.Class1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
